@@ -1,0 +1,23 @@
+h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 26;
+}
+#button1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20;
+}
+.bt.-success:hover{
+    background-color: rgb(63, 113, 160);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+
+
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px rgb(0, 128, 17);}
+    to {box-shadow: 1px 1px 38px blue;}
+   }
